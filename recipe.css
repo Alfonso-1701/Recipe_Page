@@ -1,2 +1,54 @@
+h1, h2{
+    font-family: "Young Serif", serif;
+}
+h1{
+    font-size: 2.3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
 
+}
+h2{
+    color: var(--brown800);
+}
+:root{
+    --main-bg-color: hsl(0, 0%, 100%);
+    --stone100: hsl(30, 54%, 90%);
+    --stone150: hsl(30, 18%, 87%);
+    --stone600: hsl(30, 10%, 34%);
+    --stone900: hsl(24, 5%, 18%);
+    --brown800: hsl(14, 45%, 36%);
+
+    --rose800: hsl(332, 51%, 32%);
+    --rose50: hsl(330, 100%, 98%);
+}
+
+body{
+    background-color: var(--stone100);
+    font-family: outfit, sans-serif;
+    font-size: 16px;
+}
+*{
+    font-size: 16px;
  
+}
+
+.shell{
+    padding: 2rem;
+    margin: 5% auto 5% auto;
+    background-color: var(--main-bg-color);
+    width: 50%;
+    border-radius: 15px;
+}
+#prep_shell{
+    padding: 1rem 2rem;
+    background-color: var(--rose50);
+}
+#prep{
+    font-size: 1.5rem;
+    color: var(--rose800);
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
