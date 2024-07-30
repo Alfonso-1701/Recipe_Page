@@ -1,8 +1,12 @@
+img{
+    width: 100%;
+    border-radius: 10px;
+}
 h1, h2{
     font-family: "Young Serif", serif;
 }
 h1{
-    font-size: 2.3rem;
+    font-size: 2rem;
     font-weight: 100;
     margin-bottom: 1rem;
 
@@ -10,6 +14,8 @@ h1{
 h2{
     color: var(--brown800);
 }
+
+
 :root{
     --main-bg-color: hsl(0, 0%, 100%);
     --stone100: hsl(30, 54%, 90%);
@@ -22,33 +28,89 @@ h2{
     --rose50: hsl(330, 100%, 98%);
 }
 
+
 body{
     background-color: var(--stone100);
     font-family: outfit, sans-serif;
     font-size: 16px;
 }
-*{
-    font-size: 16px;
- 
-}
-
-.shell{
+.main_shell{
     padding: 2rem;
     margin: 5% auto 5% auto;
     background-color: var(--main-bg-color);
     width: 50%;
     border-radius: 15px;
 }
-#prep_shell{
-    padding: 1rem 2rem;
-    background-color: var(--rose50);
-}
-#prep{
-    font-size: 1.5rem;
-    color: var(--rose800);
+.ruler{
+    margin: 1.5rem 0px;
 }
 
-img{
-    width: 100%;
+
+#prep_shell{
+    padding: .3rem;
+    line-height: 1.5rem;
+    background-color: var(--rose50);
     border-radius: 10px;
 }
+#prep{
+    font-size: 1rem;
+    margin: .7rem 1rem;
+    color: var(--rose800);
+}
+#prep_shell li::marker{
+    color: var(--rose800);
+}
+#prep_shell li{
+    padding-left: 1rem ;
+}
+
+
+#ingredients_shell{
+    line-height: 1.5rem;
+}
+
+#ingredients_shell li::marker{
+    color: var(--brown800);
+}
+
+#ingredients_shell ul{
+    margin-left: 1rem;
+    padding: 0px;
+}
+#ingredients_shell li{
+    padding-left: 1rem;
+}
+
+
+#instructions_shell{
+    line-height: 1.1rem;
+}
+#instructions_shell li::marker{
+    color: var(--brown800);
+    font-weight: 700;
+}
+#instructions_shell ol{
+    margin-left: 1rem;
+    padding: 0px;
+}
+#instructions_shell li{
+    padding-left: 1rem;
+}
+
+
+.nutrition{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}   
+
+.note{
+    margin-left: 2rem;
+}
+
+.value{
+    color: var(--brown800);
+    font-weight: 700;
+}
+
+
+ 
