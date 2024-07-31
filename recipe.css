@@ -127,8 +127,7 @@ hr{
 .value{
     color: var(--brown800);
     font-weight: 700;
-}
-
+} 
 
  @media screen and (max-width: 375px) {
     body{
