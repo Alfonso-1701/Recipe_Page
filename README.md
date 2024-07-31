@@ -26,7 +26,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ### Links
 
 - Solution URL: [https://github.com/Alfonso-1701/Recipe_Page](https://github.com/Alfonso-1701/Recipe_Page)
-- Live Site URL: [ https://alfonso-1701.github.io/Recipe_Page/]( https://alfonso-1701.github.io/Recipe_Page/)
+- Live Site URL: [https://fascinating-kangaroo-112ec6.netlify.app](https://fascinating-kangaroo-112ec6.netlify.app)
 
 ## My process
 
